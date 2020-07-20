@@ -1,7 +1,21 @@
 # Seismic Noise Detector (SND)
-
+This repository contains the source code and dataset used in the work "Seismic Shot Gather Noise Localization Using a Multi-Scale Feature-Fusion-Based Neural Network" (Under review).
 
 ## Installation
+
+Install Python > 3.6 
+  * https://www.python.org/downloads/
+
+With pip, install the following dependencies:
+
+    $ pip install tensorflow-gpu (>= 1.9.0)
+    $ pip install numpy
+    $ pip install matplotlib
+    $ pip install opencv-python
+    $ pip install xtarfile
+    $ pip install zip-files
+    $ pip install setuptools
+    $ pip install collections-extended
 
 Install the TensorFlow Object Detection API
 
@@ -30,7 +44,7 @@ Next, open the `seismic_noise_detectior.ipynb` file and follow the step-by-step 
 
 To train and evaluate your own model, follow these [tutorial](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1.md)
 
-You can use the models created by this project as a reference. They are in the src / models folder:
+You can use the models created by this work as a reference. They are in the src / models folder:
 
   * ssd_mobilenet_v1.config (SSD + MobileNet v1)
   * ssd_inception_v3 (SSD + Inception v3)
