@@ -42,7 +42,7 @@ Next, open the `seismic_noise_detectior.ipynb` file and follow the step-by-step 
 
 ## Training and Evaluation
 
-To train and evaluate your own model, follow these [tutorial](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1.md)
+To train and evaluate your own model, follow this [tutorial](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1.md)
 
 You can use the models created by this work as a reference. They are in the src / models folder:
 
